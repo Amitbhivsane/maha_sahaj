@@ -22,26 +22,40 @@ const Home = () => {
         </span>
 
         {/* Video Section */}
-        <div className="flex flex-col md:flex-row justify-center items-center gap-6 mt-10">
-          <iframe
-            className="w-full md:w-1/2 max-w-lg rounded-lg shadow-lg"
-            height="350"
-            src="https://www.youtube.com/embed/3395oxkxrxg"
-            title="Shri Mataji Self Realization (Kundalini Atma) Kolkata West Bengal 1986 (Calcutta) Sahaja Yoga Hindi"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
+        <div className="mt-10">
+          <div className="flex flex-col md:flex-row justify-center items-start gap-6">
+            {/* Left – Hindi */}
+            <div className="w-full md:w-1/2 max-w-lg text-center">
+              <h2 className="text-xl text-pink-700  font-serif font-semibold mb-3">
+                Experience in Hindi
+              </h2>
+              <iframe
+                className="w-full rounded-lg shadow-lg"
+                height="350"
+                src="https://www.youtube.com/embed/3395oxkxrxg"
+                title="Shri Mataji Self Realization Hindi"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
+            </div>
 
-          <iframe
-            className="w-full md:w-1/2 max-w-lg rounded-lg shadow-lg"
-            height="350"
-            src="https://www.youtube.com/embed/gEXbMZ8CoQU"
-            title="Sahaja Yoga - Self-Realization"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
+            {/* Right – English */}
+            <div className="w-full md:w-1/2 max-w-lg text-center">
+              <h2 className="text-xl font-semibold mb-3">
+                Experience in English
+              </h2>
+              <iframe
+                className="w-full rounded-lg shadow-lg"
+                height="350"
+                src="https://www.youtube.com/embed/gEXbMZ8CoQU"
+                title="Sahaja Yoga Self Realization English"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
         </div>
 
         {/* Self-Realization Guide */}

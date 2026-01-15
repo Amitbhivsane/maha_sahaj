@@ -7,17 +7,21 @@ import Sahajayoga from "./Pages/sahajayoga/Sahajayoga";
 import Center from "./Pages/center/Center";
 import Events from "./Pages/eventss/Events";
 import Download from "./Pages/downlo/Download";
-import Memories from "./Pages/memories/Memories";
+import { Statecommittee } from "./Pages/committee/state/statecommittee";
+import { DistrictCommittee } from "./Pages/committee/district/DistrictCommittee";
 import Subtle from "./Pages/sahajayoga/Subtle";
+
+// import StateCommittee from "./Pages/committee/StateCommittee";
+// import DistrictCommittee from "./Pages/committee/DistrictCommittee";
 
 function App() {
   return (
     <>
-      {/* Navbar (Fixed) */}
+      {/* Navbar */}
       <Navbar />
 
-      {/* Main Content (Pushes Below Navbar) */}
-      <div className="pt-20 bg-gray-100">
+      {/* Main Content */}
+      <div className="pt-20 bg-gray-100 min-h-screen">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shree-mataji" element={<ShreeMataji />} />
@@ -25,8 +29,11 @@ function App() {
           <Route path="/centers" element={<Center />} />
           <Route path="/events" element={<Events />} />
           <Route path="/download" element={<Download />} />
-          {/* <Route path="/memories" element={<Memories />} /> */}
           <Route path="/subtle" element={<Subtle />} />
+
+          {/* ✅ Committee Routes */}
+          <Route path="/committee/state" element={<Statecommittee />} />
+          <Route path="/committee/district" element={<DistrictCommittee />} />
         </Routes>
       </div>
 

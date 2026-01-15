@@ -19,7 +19,7 @@ const Footer = () => {
           >
             <img src={loga} className="h-12 w-12" alt="Sahajayoga Logo" />
             <span className="text-2xl font-semibold text-white">
-              {t("SahajaYoga Jalgaon")}
+              {t("Maharashtra Sahajayoga")}
             </span>
           </a>
 
