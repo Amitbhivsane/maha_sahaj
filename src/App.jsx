@@ -76,7 +76,7 @@ import Download from "./Pages/downlo/Download";
 import Subtle from "./Pages/sahajayoga/Subtle";
 import { Contact } from "./Pages/contact/Contact";
 import { MaharashtraDarshan } from "./Pages/darshan/MaharashtraDarshan";
-import { StateCommittee } from "./Pages/committee/state/statecommittee";
+import { StateCommittee } from "./Pages/committee/state/StateCommittee";
 import { DistrictCommittee } from "./Pages/committee/district/DistrictCommittee";
 import Chaitanrath from "./Pages/chaitanrath/chaitanrath";
 
