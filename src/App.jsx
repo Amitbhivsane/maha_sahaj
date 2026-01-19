@@ -1,6 +1,5 @@
 import { Route, Routes } from "react-router-dom";
 import { useState } from "react";
-
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import Home from "./Pages/Home";
@@ -10,12 +9,10 @@ import Center from "./Pages/center/Center";
 import Events from "./Pages/eventss/Events";
 import Download from "./Pages/downlo/Download";
 import Subtle from "./Pages/sahajayoga/Subtle";
-import { Contact } from "./Pages/contact/Contact";
-import { MaharashtraDarshan } from "./Pages/darshan/MaharashtraDarshan";
-
-import { DistrictCommittee } from "./Pages/committee/district/DistrictCommittee";
-
-import { StateCommittee } from "./Pages/committee/state/StateCommittee";
+import Contact from "./Pages/contact/Contact";
+import MaharashtraDarshan from "./Pages/darshan/MaharashtraDarshan";
+import DistrictCommittee from "./Pages/committee/district/DistrictCommittee";
+import StateCommittee from "./Pages/committee/state/StateCommittee";
 import Chaitanrath from "./Pages/chaitanrath/chaitanrath";
 
 function App() {
