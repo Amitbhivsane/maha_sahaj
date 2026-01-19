@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-const Chaitanrath = () => {
+const Chaitanratha = () => {
   const { t } = useTranslation();
 
   return (
@@ -37,4 +37,4 @@ const Chaitanrath = () => {
   );
 };
 
-export default Chaitanrath;
+export default Chaitanratha;

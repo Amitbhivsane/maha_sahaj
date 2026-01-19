@@ -13,7 +13,7 @@ import Contact from "./Pages/contact/Contact";
 import MaharashtraDarshan from "./Pages/darshan/MaharashtraDarshan";
 import DistrictCommittee from "./Pages/committee/district/DistrictCommittee";
 import StateCommittee from "./Pages/committee/state/StateCommittee";
-import Chaitanrath from "./Pages/chaitanrath/chaitanrath";
+import Chaitanratha from "./Pages/chaitanrath/Chaitanratha";
 
 function App() {
   const [language, setLanguage] = useState("en"); // default English
@@ -41,7 +41,7 @@ function App() {
           <Route path="/contact-us" element={<Contact language={language} />} />
           <Route
             path="/chaitan-rath"
-            element={<Chaitanrath language={language} />}
+            element={<Chaitanratha language={language} />}
           />
           <Route
             path="/maharashtra-darshan"
