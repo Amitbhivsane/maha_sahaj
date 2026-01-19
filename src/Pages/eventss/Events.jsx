@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import accordionDataEn from "../../data/datapuja";
-import accordionDataMa from "../../data/datapujama";
-import accordionDataHi from "../../data/datapujahi"; // <-- Hindi data
+import accordionDataEn from "../../data/datapuja.js";
+import accordionDataMa from "../../data/datapujama.js";
+import accordionDataHi from "../../data/datapujahi.js"; // <-- Hindi data
 import matajio from "../../assets/mataji/matajio.png";
 
 const Events = ({ language }) => {

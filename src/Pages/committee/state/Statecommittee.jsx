@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import StateData from "../../../data/statedata";
+import StateData from "../../../data/statedata.js";
 import { IoMdPerson } from "react-icons/io";
 import { FaCity, FaMobileScreen } from "react-icons/fa6";
 
