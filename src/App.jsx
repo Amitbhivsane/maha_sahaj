@@ -14,8 +14,9 @@ import { Contact } from "./Pages/contact/Contact";
 import { MaharashtraDarshan } from "./Pages/darshan/MaharashtraDarshan";
 
 import { DistrictCommittee } from "./Pages/committee/district/DistrictCommittee";
-import Chaitanrath from "./Pages/chaitanrath/chaitanrath";
+
 import { StateCommittee } from "./Pages/committee/state/StateCommittee";
+import Chaitanrath from "./Pages/chaitanrath/chaitanrath";
 
 function App() {
   const [language, setLanguage] = useState("en"); // default English
