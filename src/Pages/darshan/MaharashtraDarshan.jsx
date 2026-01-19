@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-export const MaharashtraDarshan = () => {
+const MaharashtraDarshan = () => {
   const { t } = useTranslation();
   return (
     <>
@@ -82,3 +82,5 @@ export const MaharashtraDarshan = () => {
     </>
   );
 };
+
+export default MaharashtraDarshan;

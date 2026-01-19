@@ -2,7 +2,7 @@ import React from "react";
 import { HiLocationMarker } from "react-icons/hi";
 import { MdEmail, MdCall } from "react-icons/md";
 
-export const Contact = () => {
+const Contact = () => {
   return (
     /* FULL PAGE BACKGROUND */
     <div className="min-h-screen w-full bg-red-100 flex flex-col items-center">
@@ -70,3 +70,4 @@ export const Contact = () => {
     </div>
   );
 };
+export default Contact;

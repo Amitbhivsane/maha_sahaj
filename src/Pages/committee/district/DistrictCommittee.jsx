@@ -4,7 +4,7 @@ import { IoMdPerson } from "react-icons/io";
 import { FaCity, FaMobileScreen } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
-export const DistrictCommittee = () => {
+const DistrictCommittee = () => {
   const [filteredData] = useState(DistrictData);
 
   return (
@@ -214,3 +214,5 @@ export const DistrictCommittee = () => {
     </div>
   );
 };
+
+export default DistrictCommittee;

@@ -3,7 +3,7 @@ import StateData from "../../../data/statedata.js";
 import { IoMdPerson } from "react-icons/io";
 import { FaCity, FaMobileScreen } from "react-icons/fa6";
 
-export const StateCommittee = () => {
+const StateCommittee = () => {
   const [filteredData] = useState(StateData);
 
   return (
@@ -68,3 +68,4 @@ const Section = ({ title, data }) => (
     ))}
   </div>
 );
+export default StateCommittee;
