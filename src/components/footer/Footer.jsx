@@ -18,9 +18,11 @@ const Footer = () => {
             className="flex items-center mb-4 sm:mb-0 space-x-3"
           >
             <img src={loga} className="h-12 w-12" alt="Sahajayoga Logo" />
-            <span className="text-2xl font-semibold text-white">
-              {t("Maharashtra Sahajayoga")}
-            </span>
+            <div className="text-white font-serif leading-tight flex flex-col justify-center">
+              <span className="text-sm font-semibold">{t("Maharashtra")}</span>
+              <span className="text-sm font-semibold ">{t("State")}</span>
+              <span className="text-sm font-semibold ">{t("Sahajayoga")}</span>
+            </div>
           </a>
 
           {/* Navigation Links */}

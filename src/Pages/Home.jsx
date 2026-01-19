@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 const Home = () => {
   const { t } = useTranslation();
   return (
-    <div className="bg-red-50 w-full h-auto">
+    <div className="bg-red-50 w-full h-auto ">
       <Hero />
 
       <section className="container mx-auto text-center px-6 py-12">
@@ -14,7 +14,7 @@ const Home = () => {
         </h2>
         <p className="text-xl  md:text-2xl text-gray-800  font-serif leading-relaxed max-w-3xl mx-auto p-4 md:p-6">
           {t(
-            "The time has come for all of you to get your self-realisation, by which your attention becomes enlightened, your health gets completely alright, your mental processes become sensible, but above all, you stand in your present."
+            "The time has come for all of you to get your self-realisation, by which your attention becomes enlightened, your health gets completely alright, your mental processes become sensible, but above all, you stand in your present.",
           )}
         </p>
         <span className="text-cyan-700 text-xl font-semibold  font-serif block mt-4">
@@ -42,7 +42,7 @@ const Home = () => {
 
             {/* Right – English */}
             <div className="w-full md:w-1/2 max-w-lg text-center">
-              <h2 className="text-xl font-semibold mb-3">
+              <h2 className="text-xl text-pink-700  font-serif font-semibold mb-3">
                 Experience in English
               </h2>
               <iframe
@@ -62,7 +62,7 @@ const Home = () => {
         <div className="max-w-3xl mx-auto mt-10 p-8 rounded-lg shadow-lg text-gray-800 bg-red-50">
           <p className="text-xl  md:text-2xl text-gray-800 leading-relaxed font-serif">
             {t(
-              "You can receive your Self Realisation (connection with your Self) while sitting in front of your computer. The only condition is your sincere desire to have it. During the experience, keep your left hand palm upwards on your lap and place the right palm on various parts of the body on your left side. Keep your eyes closed for better focus. Taking off your shoes may help, as Mother Earth absorbs negativity through our feet."
+              "You can receive your Self Realisation (connection with your Self) while sitting in front of your computer. The only condition is your sincere desire to have it. During the experience, keep your left hand palm upwards on your lap and place the right palm on various parts of the body on your left side. Keep your eyes closed for better focus. Taking off your shoes may help, as Mother Earth absorbs negativity through our feet.",
             )}
           </p>
         </div>

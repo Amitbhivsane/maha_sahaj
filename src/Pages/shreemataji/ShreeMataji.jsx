@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
-// import a from "../../assets/a.jpg";
+
 import shrimataji_young from "../../assets/shrimataji_young.jpg";
 import shriMataj from "../../assets/mataji/shriMataj.png";
 import { useTranslation } from "react-i18next";
@@ -41,23 +41,23 @@ const ShreeMataji = () => {
 
           <p className="mt-4 text-lg font-serif leading-relaxed text-gray-800">
             {t(
-              "Shri Mataji Nirmala Devi was born on March 21, 1923, into the Salve family in Chhindwara, India. Her parents, Prasad and Cornelia Salve, were direct descendants of the royal Shalivahana Dynasty. Seeing the brilliance of this child, they named her Nirmala, meaning “immaculate.”"
+              "Shri Mataji Nirmala Devi was born on March 21, 1923, into the Salve family in Chhindwara, India. Her parents, Prasad and Cornelia Salve, were direct descendants of the royal Shalivahana Dynasty. Seeing the brilliance of this child, they named her Nirmala, meaning “immaculate.”",
             )}
           </p>
           <p className="mt-4 text-lg font-serif leading-relaxed text-gray-800">
             {t(
-              "Shri Mataji Nirmala Devi, who was born with complete Self-Realization. Her parents played a key role in India’s Liberation Movement. Her father, a close associate of Mahatma Gandhi, helped draft India’s first constitution."
+              "Shri Mataji Nirmala Devi, who was born with complete Self-Realization. Her parents played a key role in India’s Liberation Movement. Her father, a close associate of Mahatma Gandhi, helped draft India’s first constitution.",
             )}
           </p>
 
           <p className="mt-4 text-lg font-serif leading-relaxed text-gray-800">
             {t(
-              "Her mother was the first woman in India to receive an Honors Degree in Mathematics."
+              "Her mother was the first woman in India to receive an Honors Degree in Mathematics.",
             )}
           </p>
           <p className="mt-4 text-lg font-serif leading-relaxed text-gray-800">
             {t(
-              "Shri Mataji’s involvement in the freedom struggle is extremely remarkable. She was very courageous and played a daring role as a youth leader of this campaign. In the 1942 Quit India Movement announced by Gandhi, she was even arrested and put in jail along with other freedom fighters for actively participating in this movement."
+              "Shri Mataji’s involvement in the freedom struggle is extremely remarkable. She was very courageous and played a daring role as a youth leader of this campaign. In the 1942 Quit India Movement announced by Gandhi, she was even arrested and put in jail along with other freedom fighters for actively participating in this movement.",
             )}
           </p>
 
@@ -90,12 +90,12 @@ const ShreeMataji = () => {
           </h1>
           <p className="mt-4 text-lg font-serif leading-relaxed text-gray-800">
             {t(
-              "Shri Mataji was born with a complete understanding of the human nervous system and its energetic counterparts. In order to become acquainted with the scientific vocabulary attached to these subjects, she studied medicine and psychology at the Christian Medical College in Lahore."
+              "Shri Mataji was born with a complete understanding of the human nervous system and its energetic counterparts. In order to become acquainted with the scientific vocabulary attached to these subjects, she studied medicine and psychology at the Christian Medical College in Lahore.",
             )}
           </p>
           <p className="mt-4 text-lg font-serif leading-relaxed text-gray-800">
             {t(
-              "Her early education was influenced by Mahatma Gandhi, under whom she spent time during India's freedom movement. She learned values of compassion, non-violence, and self-discipline."
+              "Her early education was influenced by Mahatma Gandhi, under whom she spent time during India's freedom movement. She learned values of compassion, non-violence, and self-discipline.",
             )}
           </p>
 
@@ -109,7 +109,7 @@ const ShreeMataji = () => {
             –
             <span className="mt-4 text-lg font-serif leading-relaxed text-gray-800">
               {t(
-                "She was invited by the United Nations to speak on world peace and spirituality."
+                "She was invited by the United Nations to speak on world peace and spirituality.",
               )}
             </span>
           </p>
@@ -120,7 +120,7 @@ const ShreeMataji = () => {
             –{" "}
             <span className="mt-4 text-lg font-serif leading-relaxed text-gray-800">
               {t(
-                "The Italian government honored her with the title 'Knight Commander of the Order of Merit' for her humanitarian work."
+                "The Italian government honored her with the title 'Knight Commander of the Order of Merit' for her humanitarian work.",
               )}
             </span>
           </p>
@@ -131,7 +131,7 @@ const ShreeMataji = () => {
             –{" "}
             <span className="mt-4 text-lg font-serif leading-relaxed text-gray-800">
               {t(
-                "She was nominated for the Nobel Peace Prize for her efforts in spreading peace and self-realization."
+                "She was nominated for the Nobel Peace Prize for her efforts in spreading peace and self-realization.",
               )}
             </span>
           </p>
@@ -143,7 +143,7 @@ const ShreeMataji = () => {
             <span className="mt-4 text-lg font-serif leading-relaxed text-gray-800">
               {" "}
               {t(
-                "Many cities in Italy, Canada, and the United States awarded her honorary citizenship."
+                "Many cities in Italy, Canada, and the United States awarded her honorary citizenship.",
               )}
             </span>
           </p>
@@ -154,7 +154,7 @@ const ShreeMataji = () => {
             –{" "}
             <span className="mt-4 text-lg font-serif leading-relaxed text-gray-800">
               {t(
-                "Although she remained away from political influence, her contributions to spiritual growth were widely acknowledged in India."
+                "Although she remained away from political influence, her contributions to spiritual growth were widely acknowledged in India.",
               )}
             </span>
           </p>
@@ -165,7 +165,7 @@ const ShreeMataji = () => {
             –{" "}
             <span className="mt-4 text-lg font-serif leading-relaxed text-gray-800">
               {t(
-                "She was highly respected in Russia, Ukraine, and other former Soviet countries, where Sahaja Yoga became an official part of medical and educational institutions."
+                "She was highly respected in Russia, Ukraine, and other former Soviet countries, where Sahaja Yoga became an official part of medical and educational institutions.",
               )}
             </span>
           </p>
@@ -175,18 +175,18 @@ const ShreeMataji = () => {
           </h1>
           <p className="mt-4 text-lg font-serif leading-relaxed text-gray-800">
             {t(
-              "Sahaja Yoga, established by Shri Mataji Nirmala Devi on May 5, 1970, is a profound meditation technique that facilitates spontaneous self-realization through the awakening of Kundalini energy. It fosters inner peace, harmony, and spiritual evolution without relying on rituals or external influences."
+              "Sahaja Yoga, established by Shri Mataji Nirmala Devi on May 5, 1970, is a profound meditation technique that facilitates spontaneous self-realization through the awakening of Kundalini energy. It fosters inner peace, harmony, and spiritual evolution without relying on rituals or external influences.",
             )}
           </p>
           <p className="mt-4 text-lg font-serif leading-relaxed text-gray-800">
             {t(
-              "Shri Mataji tirelessly traveled across more than 100 countries, spreading the message of Sahaja Yoga as a path to universal peace and self-awareness. She addressed international organizations, including the United Nations, and received global recognition for her humanitarian work."
+              "Shri Mataji tirelessly traveled across more than 100 countries, spreading the message of Sahaja Yoga as a path to universal peace and self-awareness. She addressed international organizations, including the United Nations, and received global recognition for her humanitarian work.",
             )}
           </p>
 
           <p className="mt-4 text-lg font-serif leading-relaxed text-gray-800">
             {t(
-              "Sahaja Yoga is now practiced globally, with meditation centers, workshops, and digital platforms enabling millions to achieve mental clarity, emotional balance, and stress reduction. It has evolved into an international movement, bringing people together across cultures through inner transformation."
+              "Sahaja Yoga is now practiced globally, with meditation centers, workshops, and digital platforms enabling millions to achieve mental clarity, emotional balance, and stress reduction. It has evolved into an international movement, bringing people together across cultures through inner transformation.",
             )}
           </p>
 
@@ -194,7 +194,7 @@ const ShreeMataji = () => {
             <div>
               <h2 className="mt-4 text-3xl font-semibold font-serif text-pink-700">
                 {t(
-                  "When you are peaceful within, the whole world becomes peaceful."
+                  "When you are peaceful within, the whole world becomes peaceful.",
                 )}
               </h2>
               <p className="mt-2 text-2xl font-medium text-gray-700">
