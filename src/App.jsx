@@ -12,8 +12,9 @@ import Subtle from "./Pages/sahajayoga/Subtle";
 import Contact from "./Pages/contact/Contact";
 import MaharashtraDarshan from "./Pages/darshan/MaharashtraDarshan";
 import DistrictCommittee from "./Pages/committee/district/DistrictCommittee";
-import StateCommittee from "./Pages/committee/state/StateCommittee";
+
 import Chaitanratha from "./Pages/chaitanrath/Chaitanratha";
+import Statecommittee from "./Pages/committee/state/StateCommittee";
 
 function App() {
   const [language, setLanguage] = useState("en"); // default English
@@ -49,7 +50,7 @@ function App() {
           />
           <Route
             path="/committee/state"
-            element={<StateCommittee language={language} />}
+            element={<Statecommittee language={language} />}
           />
           <Route
             path="/committee/district"
